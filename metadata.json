@@ -1,0 +1,289 @@
+{
+  "random_state": 34351,
+  "target": "popularity",
+  "audio_features": [
+    "danceability",
+    "energy",
+    "loudness",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "duration_ms",
+    "key",
+    "mode",
+    "time_signature",
+    "explicit"
+  ],
+  "billboard_features": [
+    "matched_billboard",
+    "best_rank",
+    "peak_rank",
+    "max_weeks_on_chart",
+    "chart_appearances",
+    "first_chart_month",
+    "last_chart_month",
+    "mean_rank_score",
+    "max_rank_score"
+  ],
+  "lastfm_features": [
+    "matched_lastfm",
+    "log1p_lastfm_sample_playcount",
+    "log1p_lastfm_sample_listeners",
+    "lastfm_sample_user_reach_pct",
+    "lastfm_scrobble_span_days"
+  ],
+  "all_context_features": [
+    "danceability",
+    "energy",
+    "loudness",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "duration_ms",
+    "key",
+    "mode",
+    "time_signature",
+    "explicit",
+    "matched_billboard",
+    "best_rank",
+    "peak_rank",
+    "max_weeks_on_chart",
+    "chart_appearances",
+    "first_chart_month",
+    "last_chart_month",
+    "mean_rank_score",
+    "max_rank_score",
+    "matched_lastfm",
+    "log1p_lastfm_sample_playcount",
+    "log1p_lastfm_sample_listeners",
+    "lastfm_sample_user_reach_pct",
+    "lastfm_scrobble_span_days"
+  ],
+  "feature_defaults": {
+    "danceability": 0.575,
+    "energy": 0.682,
+    "loudness": -7.256,
+    "speechiness": 0.0498,
+    "acousticness": 0.182,
+    "instrumentalness": 0.000112,
+    "liveness": 0.133,
+    "valence": 0.45,
+    "tempo": 122.014,
+    "duration_ms": 214133.0,
+    "key": 5.0,
+    "mode": 1.0,
+    "time_signature": 4.0,
+    "explicit": 0.0,
+    "matched_billboard": 0.0,
+    "best_rank": 0.0,
+    "peak_rank": 0.0,
+    "max_weeks_on_chart": 0.0,
+    "chart_appearances": 0.0,
+    "first_chart_month": 0.0,
+    "last_chart_month": 0.0,
+    "mean_rank_score": 0.0,
+    "max_rank_score": 0.0,
+    "matched_lastfm": 0.0,
+    "log1p_lastfm_sample_playcount": 0.0,
+    "log1p_lastfm_sample_listeners": 0.0,
+    "lastfm_sample_user_reach_pct": 0.0,
+    "lastfm_scrobble_span_days": 0.0
+  },
+  "feature_ranges": {
+    "danceability": {
+      "min": 0.117,
+      "max": 0.9043199999999925
+    },
+    "energy": {
+      "min": 0.023668000000000005,
+      "max": 0.994
+    },
+    "loudness": {
+      "min": -29.01496,
+      "max": -1.604
+    },
+    "speechiness": {
+      "min": 0.0256,
+      "max": 0.8223199999999924
+    },
+    "acousticness": {
+      "min": 5.020400000000002e-06,
+      "max": 0.992
+    },
+    "instrumentalness": {
+      "min": 0.0,
+      "max": 0.96
+    },
+    "liveness": {
+      "min": 0.0402,
+      "max": 0.953
+    },
+    "valence": {
+      "min": 0.0323,
+      "max": 0.965
+    },
+    "tempo": {
+      "min": 64.7716,
+      "max": 192.70267999999965
+    },
+    "duration_ms": {
+      "min": 60235.520000000004,
+      "max": 557728.9199999999
+    },
+    "key": {
+      "min": 0.0,
+      "max": 11.0
+    },
+    "mode": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "time_signature": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "explicit": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "matched_billboard": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "best_rank": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "peak_rank": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "max_weeks_on_chart": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "chart_appearances": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "first_chart_month": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "last_chart_month": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "mean_rank_score": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "max_rank_score": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "matched_lastfm": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "log1p_lastfm_sample_playcount": {
+      "min": 0.0,
+      "max": 2.995732273553991
+    },
+    "log1p_lastfm_sample_listeners": {
+      "min": 0.0,
+      "max": 1.6094379124341005
+    },
+    "lastfm_sample_user_reach_pct": {
+      "min": 0.0,
+      "max": 8.0
+    },
+    "lastfm_scrobble_span_days": {
+      "min": 0.0,
+      "max": 1042.3199999999924
+    }
+  },
+  "final_test": {
+    "final_model": "Histogram Gradient Boosting - all available context",
+    "train_plus_validation_rows": 65593,
+    "test_rows": 11576,
+    "n_features": 28,
+    "features_used": "danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, key, mode, time_signature, explicit, matched_billboard, best_rank, peak_rank, max_weeks_on_chart, chart_appearances, first_chart_month, last_chart_month, mean_rank_score, max_rank_score, matched_lastfm, log1p_lastfm_sample_playcount, log1p_lastfm_sample_listeners, lastfm_sample_user_reach_pct, lastfm_scrobble_span_days",
+    "test_mae": 13.62299641703697,
+    "test_rmse": 17.298695727433987,
+    "test_r2": 0.2018351917625066
+  },
+  "model_comparison": [
+    {
+      "model": "Final candidate - Histogram Gradient Boosting",
+      "validation_mae": 13.669293387256062,
+      "validation_rmse": 17.353936432943787,
+      "validation_r2": 0.1987517679954962
+    },
+    {
+      "model": "Model 4 - Audio + All Available Context Ridge",
+      "validation_mae": 14.963081274515355,
+      "validation_rmse": 18.404484882028857,
+      "validation_r2": 0.0988057484392902
+    },
+    {
+      "model": "Model 3 - Audio + Last.fm Ridge",
+      "validation_mae": 14.983788070033604,
+      "validation_rmse": 18.427318996548795,
+      "validation_r2": 0.0965681701275027
+    },
+    {
+      "model": "Model 2 - Audio + Billboard Ridge",
+      "validation_mae": 15.29566178713678,
+      "validation_rmse": 18.74791602910888,
+      "validation_r2": 0.0648590420118844
+    },
+    {
+      "model": "Model 1 - Audio-only Ridge",
+      "validation_mae": 15.319199405340116,
+      "validation_rmse": 18.77031110031984,
+      "validation_r2": 0.0626235875076319
+    },
+    {
+      "model": "Model 0 - Mean baseline",
+      "validation_mae": 16.1037402155445,
+      "validation_rmse": 19.387268155695857,
+      "validation_r2": -9.933926695460116e-06
+    }
+  ],
+  "context_coverage": [
+    {
+      "context_source": "Billboard Hot 100 2022",
+      "raw_rows": 5300,
+      "source_unique_song_keys": 762,
+      "matched_spotify_songs": 182,
+      "spotify_base_match_rate_pct": 0.2358460003369228,
+      "source_base_match_rate_pct": 23.88451443569554,
+      "notes": "Exact normalized title plus primary-artist match."
+    },
+    {
+      "context_source": "Last.fm 1K users sample",
+      "raw_rows": 776336,
+      "source_unique_song_keys": 129584,
+      "matched_spotify_songs": 3765,
+      "spotify_base_match_rate_pct": 4.878902149827003,
+      "source_base_match_rate_pct": 2.905451290282751,
+      "notes": "Exact normalized title plus artist match; sample scrobbles, not global totals."
+    }
+  ],
+  "training_rows": 65593,
+  "held_out_test_rows": 11576,
+  "test_predictions_file": "test_predictions.csv",
+  "notes": [
+    "Audio-only mode is appropriate for hypothetical or unreleased songs.",
+    "Retrospective context mode uses post-release Billboard and Last.fm fields.",
+    "Displayed predictions are clipped to the Spotify 0-100 popularity scale.",
+    "Actual-vs-predicted comparison uses held-out test rows only."
+  ]
+}
